@@ -1,0 +1,24 @@
+section {
+  margin-bottom: 180px;
+}
+
+.section_2,
+.section_3 {
+  padding: 0 120px;
+}
+
+.title_wrap {
+  font-family: "Montserrat", sans-serif;
+}
+.title_wrap h2 {
+  font-size: 72px;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.title_wrap p {
+  font-size: 20px;
+  opacity: 0.5;
+  letter-spacing: -1px;
+  line-height: 30px;
+}

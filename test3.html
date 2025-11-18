@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>업스테이지 파트너 회전 띠</title>
+    <style>
+      body {
+        margin: 0;
+        background: #111; /* 다크 모드 배경 */
+        font-family: Arial, sans-serif;
+      }
+
+      .ticker-wrap {
+        width: 100%;
+        overflow: hidden;
+        height: 80px; /* 띠 높이 */
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .ticker {
+        display: flex;
+        gap: 60px; /* 항목 사이 간격 */
+        animation: scroll 5s linear infinite; /* 40초 동안 천천히 이동 */
+      }
+
+      .ticker span {
+        color: #fff;
+        font-weight: bold;
+        white-space: nowrap;
+        font-size: 1.1rem;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        } /* 절반만 이동 후 반복 */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span>한화 라이프</span>
+        <span>현대마린&파이어 인슈어러스</span>
+        <span>신한라이프</span>
+        <span>KB인슈어런스</span>
+        <span>로우앤컴퍼니</span>
+        <span>AWS</span>
+        <span>Oracle</span>
+        <span>LG전자</span>
+        <span>Samsung Brity</span>
+        <span>Predibase</span>
+        <span>FuriosaAI</span>
+        <span>조선일보</span>
+        <!-- 반복해서 자연스럽게 이어짐 -->
+        <span>한화 라이프</span>
+        <span>현대마린&파이어 인슈어러스</span>
+        <span>신한라이프</span>
+        <span>KB인슈어런스</span>
+        <span>로우앤컴퍼니</span>
+        <span>AWS</span>
+        <span>Oracle</span>
+        <span>LG전자</span>
+        <span>Samsung Brity</span>
+        <span>Predibase</span>
+        <span>FuriosaAI</span>
+        <span>조선일보</span>
+      </div>
+    </div>
+  </body>
+</html>

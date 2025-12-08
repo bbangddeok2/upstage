@@ -10,6 +10,7 @@ header {
   padding: 0 120px;
   position: fixed;
   z-index: 999;
+  background-color: #000;
 }
 
 .header_right {
@@ -104,6 +105,7 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(241, 241, 241, 0.2);
+  padding-bottom: 100px;
   margin-bottom: 100px;
 }
 
@@ -129,10 +131,6 @@ header {
   margin-top: 10px;
   color: #5b52ff;
   font-weight: 500;
-}
-
-.title_2 {
-  margin-bottom: 130px;
 }
 
 .title_2 h2 {
@@ -232,6 +230,7 @@ header {
   margin: 0 auto;
   position: relative;
   width: 471px;
+  cursor: pointer;
 }
 
 .donut img {
@@ -392,14 +391,16 @@ header {
 
 .stick_1 .txt_wrap_3,
 .stick_2 .txt_wrap_3 {
-  text-align: left;
+  align-items: flex-end;
+  text-align: right;
   left: auto;
   right: 0;
 }
 
 .stick_3 .txt_wrap_3,
 .stick_4 .txt_wrap_3 {
-  text-align: right;
+  align-items: flex-start;
+  text-align: left;
   left: 0;
   right: auto;
 }

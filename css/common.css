@@ -18,3 +18,19 @@ section {
   letter-spacing: -1px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+  section {
+    margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section {
+    margin-bottom: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    margin-bottom: 80px;
+  }
+}

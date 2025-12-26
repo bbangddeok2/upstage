@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .section_3_mobile {
+        display: none;
+        padding: 100px 16px;
+        background: #000;
+        color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        .con_wrap_3,
+        .mob_con_wrap_3 {
+          display: none;
+        }
+        .section_3_mobile {
+          display: block;
+        }
+      }
+
+      .section_3_mobile h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .m_donut {
+        width: 180px;
+        margin: 0 auto 40px;
+        opacity: 0.6;
+      }
+      .m_donut img {
+        width: 100%;
+      }
+
+      .m_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .m_card {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 20px;
+        padding: 22px 20px;
+      }
+
+      .m_card h3 {
+        font-size: 22px;
+        margin-bottom: 6px;
+      }
+
+      .m_card p {
+        font-size: 14px;
+        opacity: 0.6;
+        line-height: 1.6;
+        margin-bottom: 12px;
+      }
+
+      .m_card span {
+        font-size: 14px;
+        color: #7c6cff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section_3_mobile">
+      <h2>Expert-Built AI</h2>
+
+      <div class="m_donut">
+        <img src="img/section_3_donut.png" />
+      </div>
+
+      <div class="m_cards">
+        <div class="m_card">
+          <h3>Insurance</h3>
+          <p>AI로 보험 운영을 강화하세요.</p>
+          <span>View solutions →</span>
+        </div>
+
+        <div class="m_card">
+          <h3>Healthcare</h3>
+          <p>AI를 통해 더욱 스마트한 공급업체 운영을 실현하세요.</p>
+          <span>View solutions →</span>
+        </div>
+
+        <div class="m_card">
+          <h3>Financial Services</h3>
+          <p>재무 운영에서 규정 준수 및 의사 결정을 가속화하세요.</p>
+          <span>View solutions →</span>
+        </div>
+
+        <div class="m_card">
+          <h3>Manufacturing</h3>
+          <p>AI로 제조 작업을 간소화하세요.</p>
+          <span>View solutions →</span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
